@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+    <style name="detail_text_header">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="profile_name">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">20sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="text_style_profile">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    <!--Meterial edittext-->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText"></style>
+
+    <style name="materialEdit" parent="EditTextStyle">
+        <item name="met_floatingLabel">highlight</item>
+        <item name="met_floatingLabelAnimating">true</item>
+        <item name="met_floatingLabelTextSize">15sp</item>
+        <item name="met_textColor">@color/colorPrimary</item>
+        <item name="met_primaryColor">@color/black</item>
+        <item name="met_floatingLabelTextColor">@color/colorPrimary</item>
+        <item name="met_hideUnderline">false</item>
+        <item name="met_textColorHint">@color/gray</item>
+        <item name="met_underlineColor">@color/colorPrimary</item>
+        <item name="android:gravity">start</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

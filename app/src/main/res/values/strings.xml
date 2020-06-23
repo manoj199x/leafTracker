@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">LeafTracker</string>
+    <string name="fullName">Full Name</string>
+    <string name="email">Email Id</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="bank_account">Bank Name</string>
+    <string name="bank_account_no">Bank A/C Number</string>
+    <string name="bank_ifsc_code">IFSC</string>
+    <string name="district">District</string>
+    <string name="pin">PIN</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="latlong">Lat Long</string>
+    <string name="address">Address</string>
+    <string name="state">State</string>
+    <string name="newUser">Not Registered yet? Register here.</string>
+    <string name="err_invalid_phone_no">Invalid Phone Number</string>
+    <string name="signUp">Sign Up</string>
+    <string name="update">Update</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="err_invalid_name">Invalid Name</string>
+    <string name="err_invalid_pin">Invalid Pin</string>
+    <string name="err_invalid_login_pass">Password Min. Length 4</string>
+    <string name="err_invalid_pass_confirm">Confirm Password not match</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- home fragment -->
+    <string name="vendor_supply">Todays Offers</string>
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_declined">Declined</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="select_factory">Select factory</string>
+    <string name="offer_price">Offer price</string>
+    <string name="ex_moisture">Expected moisture</string>
+    <string name="expected_fine_leaf_count">Expected fine leaf count</string>
+    <string name="leaf_qtity">Leaf quantity</string>
+    <string name="create_offer">Create offer</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+
+</resources>

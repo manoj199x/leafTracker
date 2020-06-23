@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home.CreateNewOfferFragment">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_main"
+        android:layout_marginBottom="10dp">
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentPadding="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:id="@+id/factory_select"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp">
+
+                    <EditText
+                        android:id="@+id/selected_factory_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:editable="false"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/select_factory"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp">
+
+                    <EditText
+                        android:id="@+id/offerprice"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/offer_price"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp">
+
+                    <EditText
+                        android:id="@+id/ex_moisture"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:digits=""
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/ex_moisture"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp">
+
+                    <EditText
+                        android:id="@+id/ex_fine_leaf_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/expected_fine_leaf_count"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/leaf_qtity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/leaf_qtity"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="3dp"
+                    android:text="@string/create_offer"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:cornerRadius="0dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</FrameLayout>
